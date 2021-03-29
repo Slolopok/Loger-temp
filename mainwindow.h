@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "person.h"
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -18,7 +20,11 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_lineEdit_editingFinished();
+
+    void on_lineEdit_2_editingFinished();
+
 private:
-    Ui::MainWindow *ui;
+   Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

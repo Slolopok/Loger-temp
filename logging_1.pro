@@ -11,11 +11,13 @@ CONFIG += c++11
 SOURCES += \
     QMessageLoger.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    person.cpp
 
 HEADERS += \
     QMessageLoger.h \
-    mainwindow.h
+    mainwindow.h \
+    person.h
 
 FORMS += \
     mainwindow.ui
